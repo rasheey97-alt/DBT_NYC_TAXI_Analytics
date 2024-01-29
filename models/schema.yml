@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: eighth-beacon-357016
+    schema: data_trips
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
